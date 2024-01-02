@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  font-size: 26px;
+  padding: 20px;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 8px;
+}
+
+nav > a {
+  color: black;
+  text-decoration-line: none;
+  padding: 10px;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+table, th, td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
+td{
+  padding: 5px;
+}
+
+header > h1 {
+  font-size: 36px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: normal;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.obsah {
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.uvod {
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#mapa {
+  width: 50%;
+}
+
+nav > a.active {
+  font-weight: bold;
+}
